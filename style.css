@@ -1,0 +1,86 @@
+*{
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    margin: 0 auto 20px;
+    padding: 20px;
+    text-align: center;
+  border-end-start-radius: 100% ;
+    background-color: whitesmoke;
+    height: 50px;
+    width: 50%;
+  
+}
+label,input,textarea{
+    display: block;
+    width:50% ;
+    text-align: left;
+    margin: 0 auto;
+    
+}
+
+label{
+    width: 51%;
+    background-color: deeppink;
+    margin-bottom: 0px;
+    height: 10px;
+
+}
+input{
+    line-height: 1.6;
+    margin-top: 0px;
+    height: 10px;
+    margin-bottom:10px;
+    
+}
+legend {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 5px;
+    border: solid 1px black;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+form{
+    margin: 0 auto;
+    width: 30%;
+
+}
+fieldset {
+    background-color: lightskyblue;
+border: 1px solid;
+width: 130%;
+
+}
+input[type="submit"], input[type="reset"]{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    border: 1px solid #000;
+margin-top: 10px;
+background-color: coral;
+
+
+    
+}
+input[type="submit"]{
+    display: inline-block;
+    border-bottom-left-radius: 25px;
+    cursor: pointer;
+}
+input[type="reset"]{
+    border-top-right-radius: 25px;
+display: inline-block;
+cursor: pointer;
+    
+}
+input[type="submit"]:hover{
+    color: white;
+}
+input[type="reset"]:hover{
+    color: red;}
+
+
